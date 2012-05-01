@@ -10,7 +10,5 @@ class Test:
 This function will be able to be accessed via http://localhost:8080/rpc/f?a=1&b=2 with a response in JSON
 
 important: requires python2.7 or greater
-
-
 questions, concerns, suggestions: kecho_garcia@hotmail.com
 
