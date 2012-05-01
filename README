@@ -1,0 +1,15 @@
+Lite Python RPC server:
+- Only pass a python class and rpc server will bind its functions
+- Use the rpc virutal folder to access these calls.
+For example, having the python class:
+
+class Test:
+   def f(a,b):
+      return a + b
+
+This function will be able to be accessed via http://localhost:8080/rpc/f?a=1&b=2 with a response in JSON
+
+important: requires python2.7 or greater
+
+questions, concerns, suggestions: kecho_garcia@hotmail.com
+
