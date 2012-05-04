@@ -71,7 +71,6 @@ class KetchLiteServerRequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 __server = None
 
 def StartServer(RpcWorkerClass, port):
-    global __static_rpc_worker_functions_spec
     _SetRpcWorkerInstance(RpcWorkerClass)
     requestHandler = KetchLiteServerRequestHandler
     __server = SocketServer.TCPServer(("",port),requestHandler);

@@ -16,7 +16,7 @@ class TestClass:
        print("callign a function with no arguments! and returning None")
 
 if (__name__ == "__main__"):
-    PORT = 3976
+    PORT = 8080
     print ("Starting server in port: %d" % (PORT))
     print ("Access this server's rpc calls via http. For example: http://localhost:%d/rpc/func?a=1&b=2&c=3&d=4" % (PORT))
     print ("Access normal html files or even this source via http. For example http://localhost:%d/exampleserver.py" % (PORT))
